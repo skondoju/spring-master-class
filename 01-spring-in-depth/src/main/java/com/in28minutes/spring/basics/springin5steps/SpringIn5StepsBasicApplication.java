@@ -22,7 +22,7 @@ public class SpringIn5StepsBasicApplication {
 			BinarySearchImpl binarySearch1 = 
 					applicationContext.getBean(BinarySearchImpl.class);
 
-			System.out.println(binarySearch);
+			System.out.println("HI "+binarySearch);
 			System.out.println(binarySearch1);
 
 			int result = binarySearch.binarySearch(new int[] { 12, 4, 6 }, 3);
